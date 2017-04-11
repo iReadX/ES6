@@ -52,6 +52,8 @@
   - [Number.isNaN() NaN检测](./04%20数值/03.Number.isNaN().js)
   - [Number.parseInt() 转换为整数](./04%20数值/05.Number.parseInt().js)
   - [Number.parseFloat() 转换为浮点数](./04%20数值/06.Number.parseFloat().js)
-  - [Number.isInteger() 是否为整数]()
+  - [Number.isInteger() 是否为整数](./04%20数值/07.Number.isInteger().js)
+  - [Number.EPSILON 极小常量（误差测量）](./04%20数值/08.Number.EPSILON.js)
+  - [Number.isSafeInteger() 安全整数](./04%20数值/09.Number.isSafeInteger().js)
     
 继续补充ing...
