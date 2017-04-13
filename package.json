@@ -1,0 +1,26 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "之前看过一些，但知识点比较散乱，这次重新撸一遍并且整理了一下对应的知识点，欢迎补充。",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel test/es6.js -o test/es5.js",
+    "test": "babel-node test/es6.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lurkerc/ES6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lurkerc/ES6/issues"
+  },
+  "homepage": "https://github.com/Lurkerc/ES6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}

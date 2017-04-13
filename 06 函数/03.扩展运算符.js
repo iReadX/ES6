@@ -9,8 +9,13 @@ console.log(1, ...[2, 3, 4], 5) // 1 2 3 4 5
 // 函数运用
 function push(array, ...items) {
     array.push(...items)
-    console.log(...items);
+    console.log(...items); // 1, 2, 3, 4, 5, 6
+}
+
+function add(x,y){
+    return x + y
 }
 
 var numbers = [4, 38]
 push(numbers,1,2,3,4,5,6) // [ 4, 38, 1, 2, 3, 4, 5, 6 ]
+add(...numbers) // 42
