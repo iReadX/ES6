@@ -17,9 +17,8 @@ var o = {
 };
 
 // 等同于
-
 var o = {
-    method: function () {
+    method: function method() {
         return "Hello!";
     }
 }
